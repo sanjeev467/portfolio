@@ -12,8 +12,8 @@
     --first-color: #9333EA;
     --first-color-hover: rgb(40, 91, 212);
 
-    --second-color: rgb(0, 201, 255);
-    --third-color: rgb(192, 166, 49);
+    --second-color: #9333EA;
+    --third-color: #9333EA;
     --first-shadow-color: rgba(0, 0, 0, 0.1);
 
 }
@@ -47,14 +47,18 @@ html{
     background: #bbb;
 }
 
-
+.about-btn{
+    margin-left: 350px;
+    /* margin-top: px; */
+}
 
 /* Nav Logo */
 
 .nav-logo img{
 	height: 60px;
 	width: 70px;
-	margin-top: 15px;
+	margin-top: 10px;
+
 }
 
 
@@ -459,6 +463,11 @@ h3{
 }
 
 /* ----- CONTACT FORM ----- */
+
+#contact a{
+    color: white;
+}
+
 .form-control{
     display: flex;
     flex-direction: column;
@@ -649,4 +658,115 @@ footer{
 }
 
 
+.work .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin: 2rem;
+  }
+.work .box-container .box {
+    flex: 1 1 20rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    height: 20rem;
+    background-color: white;
+  }
+  .work .box-container .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .work .box-container .box .content {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 85%;
+    left: 0;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+  }
+  .work .box-container .box .content .tag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    width: 100%;
+    padding-left: 1rem;
+    background: #9333EA;
+    color: white;
+  }
+  .work .box-container .box .content .tag h3 {
+    margin-top: .5rem;
+    font-size: 1.2rem;
+    color: white;
 
+  }
+  .work .box-container .box:hover .content {
+    top: 25%;
+    transition: all .5s;
+  }
+  .work .desc {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .work .desc p {
+    font-size: 1rem;
+  }
+  .work .desc .btns {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .work .desc .btns .btn {
+    line-height: 0;
+    display: inline;
+    padding: 1.5rem 2.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background: rgb(12, 12, 12);
+    margin-right: 2rem;
+  }
+  .work .desc .btns .btn:hover {
+    background: #310ae0f5;
+  }
+  .work .viewall {
+    display: flex;
+    justify-content: center;
+  }
+  .work .viewall .btn {
+    position: relative;
+    line-height: 0;
+    padding: 1rem 2rem;
+    border-radius: 0.5em;
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    border: 2px solid #fff;
+    box-shadow: 0px 5px 10px rgba(65, 84, 241, 0.4);
+    text-align: center;
+  }
+  .work .viewall .btn span {
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: "Nunito", sans-serif;
+  }
+  .work .viewall .btn i {
+    margin-left: 0.3rem;
+    font-size: 1rem;
+    transition: 0.3s;
+  }
+  .work .viewall .btn:hover {
+    background: #fff;
+    color: #000;
+  }
+  .work .viewall .btn:hover i {
+    transform: translateX(5px);
+  }
