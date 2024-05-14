@@ -191,7 +191,7 @@ nav{
     background: var(--third-color);
     color: var(--color-white);
     padding: 3px 8px;
-    font-size: 12px;
+    font-size: 15px;
     border-radius: 5px;
 }
 .featured-name{
@@ -777,3 +777,7 @@ footer{
   .work .viewall .btn:hover i {
     transform: translateX(5px);
   }
+
+.social_icons{
+    margin-bottom: 40px;
+}
