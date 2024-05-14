@@ -48,7 +48,7 @@ html{
 }
 
 .about-btn{
-    margin-left: 350px;
+    margin-left: auto;
     /* margin-top: px; */
 }
 
@@ -330,6 +330,7 @@ h3{
     flex-direction: column;
     padding-block: 30px 70px;
     padding-inline: 20px;
+    padding-bottom: 31px;
     width: 100%;
     background: var(--color-white);
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
@@ -347,6 +348,7 @@ h3{
     background: var(--first-color);
     color: var(--color-white);
     border-radius: 30px;
+   
 }
 .about-btn button:hover{
     background: var(--first-color-hover);
