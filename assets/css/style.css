@@ -340,7 +340,10 @@ h3{
     text-align: left;
     font-size: 15px;
     color: #777;
+    margin-bottom: 15px;
 }
+
+
 .about-btn button{
     position: absolute;
     right: 20px;
@@ -348,6 +351,7 @@ h3{
     background: var(--first-color);
     color: var(--color-white);
     border-radius: 30px;
+
    
 }
 .about-btn button:hover{
@@ -458,9 +462,10 @@ h3{
     background: var(--color-white);
 }
 .contact-info:hover.contact-info h2,
+.contact-info:hover.contact-info p a,
 .contact-info:hover.contact-info p,
 .contact-info:hover.contact-info i{
-    color: #777;
+    color: #777 !important;
     z-index: 2;
 }
 
