@@ -19,6 +19,7 @@
       href="assets/images/logowebsite-modified.png"
       type="image/x-icon"
     />
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
     <title>Portfolio | Sanjeev Pandey</title>
   </head>
@@ -311,20 +312,34 @@
               </div>
             </div>
             <div class="col">
-              <div class="form-control">
+              <form
+                id="contact-form"
+                onsubmit="sendMail()"
+                class="form-control"
+              >
                 <div class="form-inputs">
-                  <input type="text" class="input-field" placeholder="Name" />
-                  <input type="text" class="input-field" placeholder="Email" />
+                  <input
+                    type="text"
+                    class="input-field"
+                    name="name"
+                    placeholder="Name"
+                  />
+                  <input
+                    type="text"
+                    class="input-field"
+                    name="email"
+                    placeholder="Email"
+                  />
                 </div>
                 <div class="text-area">
-                  <textarea placeholder="Message"></textarea>
+                  <textarea name="message" placeholder="Message"></textarea>
                 </div>
                 <div class="form-button">
-                  <button class="btn">
+                  <button onclick="sendMail()" class="btn contactBtn">
                     Send <i class="uil uil-message"></i>
                   </button>
                 </div>
-              </div>
+              </form>
             </div>
           </div>
         </section>
