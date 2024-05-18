@@ -512,9 +512,9 @@ textarea{
     background: var(--second-color);
     color: var(--color-white);
 }
-.form-button>.btn:hover{
+/* .form-button>.btn:hover{
     background: #00B5E7;
-}
+} */
 .form-button i{
     font-size: 18px;
     rotate: -45deg;
