@@ -53,6 +53,12 @@ sr.reveal(".featured-text-btn", { delay: 200 });
 sr.reveal(".social_icons", { delay: 200 });
 sr.reveal(".featured-image", { delay: 300 });
 
+// Education Section
+sr.reveal(".outer-class", { delay: 300 });
+
+// project section
+sr.reveal(".box-container", { delay: 300 });
+
 /* -- PROJECT BOX -- */
 sr.reveal(".project-box", { interval: 200 });
 
