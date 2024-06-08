@@ -916,9 +916,9 @@ footer{
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    right: calc(100% + 23px);
+    right: calc(100% + 24px);
     top:-2px;
-    background-color: #113a72;
+    background-color: #9333EA;
     border: 2px sloid white;
 
 }
