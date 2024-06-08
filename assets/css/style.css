@@ -366,6 +366,7 @@ h3{
     margin-bottom: 30px;
 }
 .skills-list{
+    width: 110px;
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
@@ -512,9 +513,10 @@ textarea{
     background: var(--second-color);
     color: var(--color-white);
 }
-/* .form-button>.btn:hover{
-    background: #00B5E7;
-} */
+.form-button>.btn:hover{
+    background: #7e22ce;
+    transition: 0.2s;
+}
 .form-button i{
     font-size: 18px;
     rotate: -45deg;
