@@ -368,7 +368,7 @@ h3{
     margin-bottom: 30px;
 }
 .skills-list{
-    width: 110px;
+    width: 90px;
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
