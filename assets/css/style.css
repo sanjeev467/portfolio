@@ -828,7 +828,7 @@ footer{
 
 }
 
-.nav-logo p{
-    text-decoration: solid;
-    color: #9333EA;
+.nav-logo img{
+    position: relative;
+    top: 6px;
 }
