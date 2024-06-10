@@ -27,7 +27,11 @@
       <!-- --------------- HEADER --------------- -->
       <nav id="header">
         <div class="nav-logo">
-          <img src="./assets/images/logowebsite-removebg.png" alt="" />
+          <img
+            id="navLogo"
+            src="./assets/images/logowebsite-removebg.png"
+            alt=""
+          />
           <!-- <span>.</span> -->
         </div>
         <div class="nav-menu" id="myNavMenu">
@@ -75,7 +79,8 @@
               <span>Sanjeev Pandey</span>
             </div>
             <div class="featured-name">
-              <p>I'm a <span class="typedText"></span></p>
+              <p>I'm a</p>
+              <span class="typedText"></span>
             </div>
             <div class="featured-text-info">
               <p>
@@ -105,7 +110,6 @@
                   ><i class="uil uil-linkedin-alt"></i
                 ></a>
               </div>
-              <!-- <div class="icon"><i class="uil uil-dribbble"></i></div> -->
               <div class="icon">
                 <a href="https://github.com/sanjeev467"
                   ><i class="uil uil-github-alt"></i
@@ -179,9 +183,7 @@
                 </div>
                 <div class="skills-list">
                   <span>C++</span>
-                  <!-- <span></span> -->
-                  <!-- <span></span> -->
-                  <!-- <span></span> -->
+                  <span>SQL</span>
                 </div>
               </div>
               <div class="skills-box">
@@ -190,8 +192,6 @@
                 </div>
                 <div class="skills-list">
                   <span>MySQL</span>
-                  <!-- <span>PostgreSQL</span> -->
-                  <!-- <span>MongoDB</span> -->
                 </div>
               </div>
             </div>
@@ -364,7 +364,39 @@
                 <p><i class="uil uil-phone"></i> Tel: +91 8788261489</p>
               </div>
             </div>
-            <div class="col">
+
+            <div class="outerbox">
+              <form class="formspace" id="contact-form" onsubmit="sendMail()">
+                <div class="inputsspace">
+                  <input
+                    type="text"
+                    class="inputspace"
+                    name="name"
+                    placeholder="Name"
+                  />
+                  <input
+                    type="text"
+                    class="inputspace"
+                    name="email"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="textspace">
+                  <textarea
+                    placeholder="Message"
+                    name="textarea"
+                    id=""
+                  ></textarea>
+                </div>
+                <div class="form-button">
+                  <button class="btn">
+                    Send <i class="uil uil-message"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+
+            <!-- <div class="col">
               <form
                 id="contact-form"
                 onsubmit="sendMail()"
@@ -393,7 +425,7 @@
                   </button>
                 </div>
               </form>
-            </div>
+            </div> -->
           </div>
         </section>
       </main>

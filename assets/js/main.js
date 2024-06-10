@@ -16,26 +16,20 @@ window.onscroll = function () {
 
 function headerShadow() {
   const navHeader = document.getElementById("header");
+  const navLogo = document.getElementById("navLogo");
 
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     navHeader.style.boxShadow = "0 1px 6px rgba(0, 0, 0, 0.1)";
     navHeader.style.height = "70px";
     navHeader.style.lineHeight = "70px";
+    navLogo.style.marginTop = "8px";
   } else {
     navHeader.style.boxShadow = "none";
     navHeader.style.height = "90px";
     navHeader.style.lineHeight = "90px";
+    navLogo.style.marginTop = "10px";
   }
 }
-
-/* ----- TYPING EFFECT ----- */
-var typingEffect = new Typed(".typedText", {
-  strings: ["Web Developer", "Programmer"],
-  loop: true,
-  typeSpeed: 100,
-  backSpeed: 80,
-  backDelay: 2000,
-});
 
 /* ----- ## -- SCROLL REVEAL ANIMATION -- ## ----- */
 const sr = ScrollReveal({
@@ -56,6 +50,18 @@ sr.reveal(".featured-image", { delay: 300 });
 // Education Section
 sr.reveal(".outer-class", { delay: 300 });
 
+// emailform
+sr.reveal(".formspace", { delay: 300 });
+
+// skillsbox
+sr.reveal(".skills-box", { delay: 300 });
+
+// about info
+sr.reveal(".contact-info", { delay: 300 });
+
+// contact info
+sr.reveal(".about-info", { delay: 300 });
+
 // project section
 sr.reveal(".box-container", { delay: 300 });
 
@@ -75,8 +81,8 @@ const srLeft = ScrollReveal({
   reset: true,
 });
 
-srLeft.reveal(".about-info", { delay: 100 });
-srLeft.reveal(".contact-info", { delay: 100 });
+// srLeft.reveal(".about-info", { delay: 100 });
+// srLeft.reveal(".contact-info", { delay: 100 });
 
 /* -- ABOUT SKILLS & FORM BOX -- */
 const srRight = ScrollReveal({
@@ -86,8 +92,8 @@ const srRight = ScrollReveal({
   reset: true,
 });
 
-srRight.reveal(".skills-box", { delay: 100 });
-srRight.reveal(".form-control", { delay: 100 });
+// srRight.reveal(".skills-box", { delay: 100 });
+// srRight.reveal(".formspace", { delay: 100 });
 
 /* ----- CHANGE ACTIVE LINK ----- */
 
@@ -136,3 +142,12 @@ function sendMail() {
     }
   );
 }
+
+/* ----- TYPING EFFECT ----- */
+var typingEffect = new Typed(".typedText", {
+  strings: ["Web Developer", "Programmer"],
+  loop: true,
+  typeSpeed: 100,
+  backSpeed: 80,
+  backDelay: 2000,
+});
