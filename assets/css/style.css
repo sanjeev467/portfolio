@@ -689,30 +689,28 @@ footer {
 
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
 
-<<<<<<< HEAD
 @media only screen and (max-width: 540px) {
   .featured-name {
-    font-size: 40px;
+    font-size: px;
   }
   .project-box {
     width: 100%;
   }
-=======
-@media only screen and (max-width: 540px){
-    .featured-name{
-        font-size: 22px;
+
+  @media only screen and (max-width: 540px) {
+    .featured-name {
+      font-size: 22px;
     }
-    .project-box{
-        width: 100%;
+    .project-box {
+      width: 100%;
     }
-    .form-inputs{
-        flex-direction: column;
+    .form-inputs {
+      flex-direction: column;
     }
-    .input-field{
-        width: 100%;
+    .input-field {
+      width: 100%;
     }
-}
->>>>>>> d26a82641d0652f4677bc95d355823507212d219
+  }
 
   .outerbox {
     flex-direction: column;
@@ -888,5 +886,3 @@ footer {
   background-color: #9333ea;
   border: 2px sloid white;
 }
-
-
