@@ -110,8 +110,38 @@ a:visited {
   color: var(--first-color);
 }
 
+/*  */
+
+.social_icons .icon {
+  padding: 10px; /* Optional: Add padding to make the background more visible */
+  transition: background-color 0.35s, color 0.35s; /* Smooth transition */
+}
+
+.social_icons .icon:hover {
+  background-color: var(--second-color); /* Purple background */
+}
+
+.social_icons .icon:hover a {
+  color: var(--color-white); /* White icon color */
+}
+
+/*  */
+
 .footer-social-icons a {
   color: var(--first-color);
+}
+
+.footer-social-icons .icon {
+  padding: 10px; /* Optional: Add padding to make the background more visible */
+  transition: background-color 0.35s, color 0.35s; /* Smooth transition */
+}
+
+.footer-social-icons .icon:hover {
+  background-color: var(--second-color); /* Purple background */
+}
+
+.footer-social-icons .icon:hover a {
+  color: var(--color-white); /* White icon color */
 }
 
 /* ----- NAVIGATION BAR ----- */
