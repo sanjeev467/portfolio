@@ -63,6 +63,25 @@ html {
   cursor: pointer;
   transition: 0.35s;
 }
+.resumeBtn {
+  font-weight: 500;
+  padding: 12px 20px;
+  background: #efefef;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.35s;
+}
+
+.resumeBtn > i {
+  margin-left: 10px;
+}
+
+.resumeBtn:hover {
+  background: var(--second-color);
+  color: var(--color-white);
+}
+
 .btn > i {
   margin-left: 10px;
 }
