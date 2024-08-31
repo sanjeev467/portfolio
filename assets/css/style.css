@@ -166,8 +166,7 @@ a:hover {
 /* ----- NAVIGATION BAR ----- */
 nav {
   background-color: black;
-  opacity: 0.95; /* 80% opacity */
-  backdrop-filter: blur(20px); /* Apply blur to the content behind the nav */
+  opacity: 0.95;
   position: fixed;
   display: flex;
   justify-content: space-between;
