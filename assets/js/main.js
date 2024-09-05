@@ -35,38 +35,38 @@ function headerShadow() {
 const sr = ScrollReveal({
   origin: "top",
   distance: "80px",
-  duration: 2000,
+  duration: 1000,
   reset: true,
 });
 
 /* -- HOME -- */
-sr.reveal(".featured-text-card", {});
-sr.reveal(".featured-name", { delay: 100 });
-sr.reveal(".featured-text-info", { delay: 200 });
-sr.reveal(".featured-text-btn", { delay: 200 });
-sr.reveal(".social_icons", { delay: 200 });
-sr.reveal(".featured-image", { delay: 300 });
+sr.reveal(".featured-text-card", { duration: 1000 });
+sr.reveal(".featured-name", { delay: 350, duration: 1000 });
+sr.reveal(".featured-text-info", { delay: 350, duration: 1000 });
+sr.reveal(".featured-text-btn", { delay: 350, duration: 1000 });
+sr.reveal(".social_icons", { delay: 350, duration: 1000 });
+sr.reveal(".featured-image", { delay: 350, duration: 1000 });
 
 // Education Section
-sr.reveal(".outer-class", { delay: 300 });
+sr.reveal(".outer-class", { delay: 350, duration: 1000 });
 
 // emailform
-sr.reveal(".formspace", { delay: 300 });
+sr.reveal(".formspace", { delay: 350, duration: 1000 });
 
 // skillsbox
-sr.reveal(".skills-box", { delay: 300 });
+sr.reveal(".skills-box", { delay: 350, duration: 1000 });
 
 // about info
-sr.reveal(".contact-info", { delay: 300 });
+sr.reveal(".contact-info", { delay: 350, duration: 1000 });
 
 // contact info
-sr.reveal(".about-info", { delay: 300 });
+sr.reveal(".about-info", { delay: 350, duration: 1000 });
 
 // project section
-sr.reveal(".box-container", { delay: 300 });
+sr.reveal(".box-container", { delay: 350, duration: 1000 });
 
 /* -- PROJECT BOX -- */
-sr.reveal(".project-box", { interval: 200 });
+sr.reveal(".project-box", { delay: 350, duration: 1000 });
 
 /* -- HEADINGS -- */
 sr.reveal(".top-header", {});
