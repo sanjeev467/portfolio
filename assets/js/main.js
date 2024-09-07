@@ -35,38 +35,38 @@ function headerShadow() {
 const sr = ScrollReveal({
   origin: "top",
   distance: "80px",
-  duration: 1000,
+  duration: 1500,
   reset: true,
 });
 
 /* -- HOME -- */
-sr.reveal(".featured-text-card", { duration: 1000 });
-sr.reveal(".featured-name", { delay: 350, duration: 1000 });
-sr.reveal(".featured-text-info", { delay: 350, duration: 1000 });
-sr.reveal(".featured-text-btn", { delay: 350, duration: 1000 });
-sr.reveal(".social_icons", { delay: 350, duration: 1000 });
-sr.reveal(".featured-image", { delay: 350, duration: 1000 });
+sr.reveal(".featured-text-card", {});
+sr.reveal(".featured-name", { delay: 100 });
+sr.reveal(".featured-text-info", { delay: 200 });
+sr.reveal(".featured-text-btn", { delay: 200 });
+sr.reveal(".social_icons", { delay: 200 });
+sr.reveal(".featured-image", { delay: 300 });
 
 // Education Section
-sr.reveal(".outer-class", { delay: 350, duration: 1000 });
+sr.reveal(".outer-class", { delay: 100 });
 
 // emailform
-sr.reveal(".formspace", { delay: 350, duration: 1000 });
+// sr.reveal(".formspace", { delay: 100, duration: 1500 });
 
 // skillsbox
-sr.reveal(".skills-box", { delay: 350, duration: 1000 });
+// sr.reveal(".skills-box", { delay: 100, duration: 1500 });
 
 // about info
-sr.reveal(".contact-info", { delay: 350, duration: 1000 });
+// sr.reveal(".contact-info", { delay: 100, duration: 1500 });
 
 // contact info
-sr.reveal(".about-info", { delay: 350, duration: 1000 });
+// sr.reveal(".about-info", { delay: 100, duration: 1500 });
 
 // project section
-sr.reveal(".box-container", { delay: 350, duration: 1000 });
+// sr.reveal(".box-container", { delay: 100, duration: 2000 });
 
 /* -- PROJECT BOX -- */
-sr.reveal(".project-box", { delay: 350, duration: 1000 });
+sr.reveal(".tilt", { interval: 200 });
 
 /* -- HEADINGS -- */
 sr.reveal(".top-header", {});
@@ -76,24 +76,24 @@ sr.reveal(".top-header", {});
 /* -- ABOUT INFO & CONTACT INFO -- */
 const srLeft = ScrollReveal({
   origin: "left",
-  distance: "80px",
-  duration: 2000,
+  distance: "36px",
+  duration: 1500,
   reset: true,
 });
 
-// srLeft.reveal(".about-info", { delay: 100 });
-// srLeft.reveal(".contact-info", { delay: 100 });
+srLeft.reveal(".about-info", { delay: 100 });
+srLeft.reveal(".contact-info", { delay: 100 });
 
 /* -- ABOUT SKILLS & FORM BOX -- */
 const srRight = ScrollReveal({
   origin: "right",
-  distance: "80px",
-  duration: 2000,
+  distance: "36px",
+  duration: 1500,
   reset: true,
 });
 
-// srRight.reveal(".skills-box", { delay: 100 });
-// srRight.reveal(".formspace", { delay: 100 });
+srRight.reveal(".skills-box", { delay: 100 });
+srRight.reveal(".formspace", { delay: 100 });
 
 /* ----- CHANGE ACTIVE LINK ----- */
 

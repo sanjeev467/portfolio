@@ -165,8 +165,6 @@ a:hover {
 
 /* ----- NAVIGATION BAR ----- */
 nav {
-  background-color: black;
-  opacity: 0.95;
   position: fixed;
   display: flex;
   justify-content: space-between;
