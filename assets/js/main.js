@@ -92,7 +92,7 @@ const srRight = ScrollReveal({
   reset: true,
 });
 
-srRight.reveal(".skills-box", { delay: 100 });
+srRight.reveal(".about-info-skills", { delay: 100 });
 srRight.reveal(".formspace", { delay: 100 });
 
 /* ----- CHANGE ACTIVE LINK ----- */
