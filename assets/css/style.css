@@ -8,7 +8,7 @@
 
   --text-color-second: rgb(68, 68, 68);
   --text-color-third: #a100ff;
-  // 9333ea purple color
+
   --first-color: #a100ff;
   --first-color-hover: rgb(40, 91, 212);
 
@@ -287,7 +287,7 @@ nav {
   display: flex;
   gap: 20px;
   text-decoration: none;
-  color: #9333ea;
+  color: #a100ff;
 }
 
 .social_icons {
@@ -884,7 +884,7 @@ footer {
   height: 3rem;
   width: 100%;
   padding-left: 1rem;
-  background: #9333ea;
+  background: #a100ff;
   color: white;
 }
 .work .box-container .box .content .tag h3 {
@@ -998,6 +998,8 @@ footer {
   border-radius: 50%;
   right: calc(100% + 24px);
   top: -2px;
-  background-color: #9333ea;
+  background-color: #a100ff;
   border: 2px sloid white;
 }
+
+/* 9333ea purple color */
